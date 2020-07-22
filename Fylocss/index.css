@@ -1,0 +1,36 @@
+*{
+ box-sizing: border-box;
+ padding:0px;
+ margin:0px;
+}
+.flex-container{
+ display: flex;
+ flex-direction:column;
+ background-color: hsl(229, 57%, 11%);
+ background-image: url(./images/bg-desktop.png);
+ width:100vw;
+ height:100vh;
+ margin: auto;
+}
+.flexboxItem{
+ background-color:  hsl(229, 57%, 11%);
+ padding: 0px;
+ margin: 0px;
+}
+.item1{
+ min-height:50vh;
+}
+.item2{
+ min-height: 50vh;
+}
+ progress::-webkit-progress-bar {
+  background-color: orchid;
+  
+}
+progress::-webkit-progress-value {
+ background-color: orchid;
+  
+}
+ 
+ 
+
